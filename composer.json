@@ -1,0 +1,22 @@
+{
+    "name": "carew/plugin-sami",
+    "description": "Sami plugin for carew",
+    "license": "MIT",
+    "homepage": "http://carew.github.com/",
+    "keywords": ["carew"],
+    "authors": [
+        {
+            "name": "Grégoire Pineau",
+            "email": "lyrixx@lyrixx.info"
+        }
+    ],
+    "require": {
+        "carew/carew": "*",
+        "sami/sami": "*",
+        "symfony/finder": "~2.1"
+    },
+    "autoload": {
+        "psr-0": { "Carew\\Plugin\\Sami": ""}
+    },
+    "target-dir": "Carew/Plugin/Sami"
+}

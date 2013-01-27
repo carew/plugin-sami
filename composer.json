@@ -1,22 +1,27 @@
 {
-    "name": "carew/plugin-sami",
-    "description": "Sami plugin for carew",
-    "license": "MIT",
-    "homepage": "http://carew.github.com/",
-    "keywords": ["carew"],
-    "authors": [
+    "name"        : "carew/plugin-sami",
+    "description" : "Sami plugin for carew",
+    "license"     : "MIT",
+    "homepage"    : "http://carew.github.com/",
+    "keywords"    : ["carew"],
+    "authors"     : [
         {
-            "name": "Grégoire Pineau",
-            "email": "lyrixx@lyrixx.info"
+            "name"  : "Grégoire Pineau",
+            "email" : "lyrixx@lyrixx.info"
         }
     ],
     "require": {
-        "carew/carew": "~1.5",
-        "sami/sami": "*",
-        "symfony/finder": "~2.1"
+        "carew/carew"    : "~1.5",
+        "sami/sami"      : "dev-master",
+        "symfony/finder" : "~2.1"
     },
     "autoload": {
         "psr-0": { "Carew\\Plugin\\Sami": ""}
     },
-    "target-dir": "Carew/Plugin/Sami"
+    "target-dir": "Carew/Plugin/Sami",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
 }

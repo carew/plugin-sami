@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "carew/carew": "*",
+        "carew/carew": "~1.5",
         "sami/sami": "*",
         "symfony/finder": "~2.1"
     },
